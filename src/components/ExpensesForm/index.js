@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { PropTypes } from 'prop-types';
-import { fetchApi, addExpense, editExpense } from '../actions';
-import './expensesForm.css';
+import { fetchApi, addExpense, editExpense } from '../../actions';
+import './style.css';
 
 const label = 'label';
 const editLabel = 'label-edit';

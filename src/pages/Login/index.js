@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { PropTypes } from 'prop-types';
 import { connect } from 'react-redux';
-import { loginAction } from '../actions';
-import './login.css';
-import myWalletLogo from '../MYWALLET.svg';
+import { loginAction } from '../../actions';
+import './style.css';
+import myWalletLogo from '../../assets/MYWALLET.svg';
 
 class Login extends React.Component {
   constructor() {

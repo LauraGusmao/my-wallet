@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { PropTypes } from 'prop-types';
-import './header.css';
-import headerLogo from '../mywalletsmall.svg';
+import './style.css';
+import headerLogo from '../../assets/mywalletsmall.svg';
 
 class Header extends React.Component {
   constructor() {
@@ -26,7 +26,7 @@ class Header extends React.Component {
         <img className="header-logo" src={ headerLogo } alt="My Wallet Logo" />
         <div className="header-info">
           <h3 className="info-item" data-testid="email-field">
-            Email:
+            E-mail:
             {' '}
             { email }
           </h3>

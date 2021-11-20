@@ -2,8 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { PropTypes } from 'prop-types';
 import { FaEdit, FaRegTrashAlt } from 'react-icons/fa';
-import { deleteExpense, enableEditExpense } from '../actions';
-import './expensesTable.css';
+import { deleteExpense, enableEditExpense } from '../../actions';
+import './style.css';
 
 class ExpensesTable extends React.Component {
   delete(id) {
