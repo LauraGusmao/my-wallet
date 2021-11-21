@@ -54,6 +54,7 @@ class Login extends React.Component {
             onChange={ this.handleInput }
             value={ password }
           />
+          <p>Insira uma senha de pelo menos 6 caracteres.</p>
           <Link to="/carteira">
             <button
               className="login-button"
