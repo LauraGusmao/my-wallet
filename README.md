@@ -50,4 +50,4 @@ $ npm start
 ```
 ## Deploy
 
-Visite a aplicação em https://mywallet-laurargus.herokuapp.com/
+Visite a aplicação em https://mywallet-laurargus.netlify.app/
