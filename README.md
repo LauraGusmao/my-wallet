@@ -2,7 +2,9 @@
 
 Bem vindo(a) ao projeto My Wallet.
 
-Este projeto foi desenvolvido durante o curso de Desenvolvimento Web na Trybe, no módulo de Front-end. 
+Este projeto foi desenvolvido durante o curso de Desenvolvimento Web na Trybe, no módulo de Front-end.
+
+Repositório original com requisitos do projeto: https://github.com/tryber/sd-011-project-trybewallet.
 
 ## Sobre
 
